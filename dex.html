@@ -1,0 +1,43 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    div 
+    {
+        margin-left: 25%;
+        margin-right: 50%;
+    }
+</style>
+<body>
+        <div>
+<h1>Este es el ránking oficial de las 10 marcas de autos más vendidas en el Perú en 2024 (1 de cada 5 autos nuevos es Toyota)</h1>
+
+<p>La Asociación Automotriz del Perú publicó su informe anual sobre el sector automotor. Según el documento, se registraron 151.062 ventas en 2024, que implicó un retroceso de -8,2% frente a lo logrado en 2023. El informe también muestra la lista de marcas de autos más vendidas en el Perú, siendo Toyota la líder indiscutible con 32.495 ventas. Pero, ¿qué otras marcas le siguen? Aquí te lo contamos.
+    Un punto a considerar es que del total de vehículos vendidos en 2024, 26.767 fueron automóviles y SW, 20.446 fueron camionetas (cerradas de carga), 29.758 fueron pick-up y furgonetas, y 74.091 fueron SUV y todoterrenos. "Diario El Comercio. Todos los derechos reservados."</p>
+    <p>1. Toyota: la marca japonesa se mantiene en el primer lugar con 36.641 unidades vendidas acumuladas, lo que significa un decrecimiento de 11,3% frente al período enero-diciembre del año pasado. Asimismo, logró una participación de mercado del 21,5%. Es decir, casi 1 de cada 5 vehículos que se venden en el Perú son de esta marca. Entre sus modelos más vendidos están el pick-up Hilux, así como los SUV Rush y Corolla Cross. "Diario El Comercio. Todos los derechos reservados."</p>
+    <button onclick="javascript: mostrar();">MOSTRAR</button>
+    <button onclick="javascript: ocultar();">OCULTAR</button>
+</div>
+    <div id="foto"></div>
+    <script>
+        function mostrar()
+        {
+            document.getElementById("foto").innerHTML="<img style='width:50%;' src=https://elcomercio.pe/resizer/v2/5BB5BNBVVVCRXOZ726E5QM7RQI.jpg?auth=145d19474fc56a713d0becbe92874f05ca9eb209148897b13615f409af023ca6&width=1200&quality=75&smart=true >"
+
+        }
+        
+        function ocultar()
+        {
+            document.getElementById("foto").innerHTML="<img style='display:none;' scr='https://images.puma.com/image/upload/q_auto,f_auto,w_543/regional/%7Eregional%7EPER%7Eothers%7EKOP%7ESS25%7ETMNT%7ECajas%7EBanner_Caja_TMNT-02.png/fmt/jpg/fmt/png' >"
+        }
+        
+    </script>
+   
+</body>
+</html>
